@@ -27,8 +27,8 @@
                 <div id="my-title"><b><a href="/">Kenny Yip Coding</a></b></div>
                 <div class="my-nav-content">
                     <ul>
-                        <li><a href="https://www.youtube.com/channel/UCdZQlE28wAgm6SKX_u9_L-Q" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/kenny-yip-1764a5134/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                        <li><a href="https://www.youtube.com/KennyYipCoding/?sub_confirmation=1" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kennyyipcoding/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
                         <li><a href="https://github.com/ImKennyYip" target="_blank" style="margin-right: 5px;"><i class="fab fa-github fa-2x"></i></a></li>
                     </ul>
                 </div>
@@ -37,13 +37,15 @@
             <div>
                 <div class="my-header">About</div>
                 <p>
-                    Welcome to my tutorial web page! Here you will find the list of web development project tutorials available. 
+                    Welcome to my tutorial web page! Here you will find the list of web development game programming project tutorials available. 
                     Each tutorial card contains links to the coding tutorial video on youtube, demo page for you to play around with the end results, and the github repo containing the source code.
-                    More tutorials are currently being added! 
+                    More tutorials are currently being added!
                 </p>
                 <p>
-                    In the future, I will include topics including data structures and algorithms in python, object-oriented programming in C++, game programming, full stack development, etc.
+                    In the future, I will include topics like data structures and algorithms in python, object-oriented programming in C++, game programming, full stack development, etc.
+                    Want to stay updated on future tutorials for free? <a href="https://www.youtube.com/KennyYipCoding/?sub_confirmation=1" target="_blank">Subscribe Now!</a>
                 </p>
+                <p>Last Updated: January 11, 2023</p>
             </div>
             <br>
 
@@ -53,6 +55,54 @@
 
                 <!-- Projects -->
                 <div class="row">
+                    <!-- Flappy Bird -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/flappybird-ss.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Flappy Bird</span>
+                            </div>
+                            <div class="card-action">
+                                <a>Coming Soon!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Space Invaders -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/spaceinvaders-ss.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Space Invaders</span>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://youtu.be/v74X5dtDLvg" target="_blank">Tutorial</a>
+                                <a href="https://imkennyyip.github.io/space-invaders/" target="_blank">Demo</a>
+                                <a href="https://github.com/ImKennyYip/space-invaders" target="_blank">Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chrome Dino Game -->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/chromedinosaur-ss.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Chrome Dinosaur</span>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://youtu.be/lgck-txzp9o" target="_blank">Tutorial</a>
+                                <a href="https://imkennyyip.github.io/chrome-dinosaur-game/" target="_blank">Demo</a>
+                                <a href="https://github.com/ImKennyYip/chrome-dinosaur-game" target="_blank">Repo</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- Wordle -->
                     <div class="col s12 m6 l4">
@@ -310,27 +360,9 @@
                         </div>
                     </div>                    
                 </div>
-
                 <a href="https://www.kennyyip.com" target="_blank"><p class="my-copyright">Kenny Yip &copy; 2020</p></a>
             </div>
-    
-
         </div>
-
-        
-
     </body>
-        
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.collapsible');
-            var instances = M.Collapsible.init(elems, {accordion: false});
-        });
-
-        function changeKenny(img){
-            var pic = document.getElementById("kenny-logo");
-            pic.src = img;
-        }
-    </script>
 
 </html>
